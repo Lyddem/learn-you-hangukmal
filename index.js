@@ -33,3 +33,5 @@ app.get('/', (req, res, next) => {
 app.listen(PORT, () => {
   console.log(`learn-you-hangukmal express edition is listening on port ${PORT}`);
 });
+
+//web-pack is a module loader

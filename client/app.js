@@ -8,7 +8,7 @@ $('#show-all').on('click', function(){
   .done(function(phrases){
     renderPhrases(phrases);
   });
-});
+}); 
 
 $('#show-one').on('click', function(){
   let phraseId = Math.floor(Math.random() * 9);
